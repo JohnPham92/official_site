@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-	font-family: 'Vollkorn', serif;
+	font-family: 'PT Serif', serif;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -21,6 +21,7 @@ h2 {
 	margin-right: auto;
 	min-height: 600px;
 	background-color: #f0eee9;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #center_main{
@@ -30,6 +31,14 @@ h2 {
 	margin-right: auto;
 	overflow: hidden;
 	background-color: #f0eee9;
+}
+
+.entry_title{
+	text-align: center;
+	font-size: 200%;
+	color: #2D7FC1;
+	padding: 0px;
+	margin: 0px;
 }
 
 .entry {

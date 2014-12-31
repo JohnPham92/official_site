@@ -9,21 +9,33 @@
 	<head>
 		<title> John Pham </title>
 			<link rel="stylesheet" media="screen and (min-width: 480px)" href="{% static "css/post.css" %}">
-			<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-			<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 			<link rel="stylesheet" media="screen and (max-width: 480px)" href="{% static "css/mobilepost.css" %}">
+
+			<script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-58116117-1']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+
+			</script>
 	</head>
 	
 	<body>
+
 		<div id = "container">
 			<div id = "center_main">
 				<div id= "body_content">					
 							<div class = "entry">
 									<div class="entry_title">
-										<h2>
 											<a href="{% url 'entry_detail' slug=object.slug %}">
 											{{ object.title }}</a>
-										</h2>
 									</div>
 									<p class="meta">
 										{{ object.created }}
