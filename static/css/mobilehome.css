@@ -29,6 +29,7 @@ body {
 
 }
 
+
 #name{
 	margin-left: auto;
 	margin-right: auto;
@@ -146,4 +147,8 @@ a:active  {
 
 .return{
 	text-align: center;
+}
+
+a.email{
+	color: #fafafa;
 }
